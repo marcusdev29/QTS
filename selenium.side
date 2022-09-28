@@ -1,0 +1,185 @@
+{
+  "id": "b07d15ea-54bd-4d67-99f3-401ebc581db2",
+  "version": "2.0",
+  "name": "Instagram",
+  "url": "https://www.instagram.com/",
+  "tests": [{
+    "id": "e92c7a5d-7532-4152-889a-9e3a3b0454c4",
+    "name": "Instagram bot",
+    "commands": [{
+      "id": "7872b089-4dd8-42a4-8250-d65f5f2d88f3",
+      "comment": "",
+      "command": "open",
+      "target": "/southamericamemes/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b855a0c-7cd5-407f-801d-981fb6af857b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63e287e0-9b7c-433c-8511-75e5fbcc36d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1201)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c5a7c4c-497f-47ee-bb8e-f2b6856d7137",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1968)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd6e8815-b192-46ca-b070-73bb2a230e0f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw",
+      "targets": [
+        ["css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_g5']/div/div/div/div/div/div/div/div/section/main/div/div[3]/article/div/div/div[8]/div[3]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76811531-ee21-4ba8-b705-36d6d370f339",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw",
+      "targets": [
+        ["css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_g5']/div/div/div/div/div/div/div/div/section/main/div/div[3]/article/div/div/div[8]/div[3]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27fc4b38-81ff-48cb-965e-9debb6358b79",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw",
+      "targets": [
+        ["css=.\\_ac7v:nth-child(8) > .\\_aabd:nth-child(3) .\\_aagw", "css:finder"],
+        ["xpath=//div[@id='scrollview']/div/div/div/div/section/main/div/div[3]/article/div/div/div[8]/div[3]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01071dba-5af9-4c71-a5b8-8cb26aa026bd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1663d107-7350-45eb-aec8-06632c805f98",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dcad743-152c-4a80-a6ee-7aa23aef4906",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_aasm .\\_ab6-",
+      "targets": [
+        ["css=.\\_aasm .\\_ab6-", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f36fb1-5fcc-4a51-b079-c1f139f8a591",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_aasm > .\\_abl-",
+      "targets": [
+        ["css=.\\_aasm > .\\_abl-", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='mount_0_0_GE']/div/div/div/div[2]/div/div/div/div/div[3]/div/div/div/div/div[2]/div/article/div/div[2]/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9dcb955-501a-4fca-8cca-d81a64000b48",
+      "comment": "",
+      "command": "open",
+      "target": "https://instawload.com.br/baixar/postagem-foto-ou-video-instagram",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b28084a8-ed7a-43cb-ae2d-3b9ff9223f5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=link",
+      "targets": [
+        ["id=link", "id"],
+        ["name=link", "name"],
+        ["css=#link", "css:finder"],
+        ["xpath=//input[@id='link']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d4033c-d48e-47cb-8dab-a5489c4bb052",
+      "comment": "",
+      "command": "type",
+      "target": "id=link",
+      "targets": [
+        ["id=link", "id"],
+        ["name=link", "name"],
+        ["css=#link", "css:finder"],
+        ["xpath=//input[@id='link']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://www.instagram.com/p/CivQz-NNsee/?utm_source=ig_web_copy_link"
+    }, {
+      "id": "ebc60ff5-29aa-46c9-86d2-a9c8616f01b6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=link",
+      "targets": [
+        ["id=link", "id"],
+        ["name=link", "name"],
+        ["css=#link", "css:finder"],
+        ["xpath=//input[@id='link']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/header/div[3]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6ad93a91-d2f7-4085-9721-6c358f01276d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,245)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bdee1f8-ac39-47f1-9bb3-d19d78917201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-2:nth-child(2) > span",
+      "targets": [
+        ["css=.px-2:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div/main/div/div/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'BAIXAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6bf55bf8-c24f-4c25-8a64-5ef50848db3f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e92c7a5d-7532-4152-889a-9e3a3b0454c4"]
+  }],
+  "urls": ["https://www.instagram.com/", "https://instawload.com.br/baixar/postagem-foto-ou-video-instagram"],
+  "plugins": []
+}
